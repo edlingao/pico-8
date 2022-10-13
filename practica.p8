@@ -8,10 +8,6 @@ palabra = "joto"
 shoot = 0
 segundos = (30 / 2)
 
-self.x = x
-self.y = y
-d = false
-
 function _draw()
 	
 	cls()
@@ -71,7 +67,6 @@ function _draw()
 end
 -->8
 -- bala
-
 
 -- clase bala
 function bala(x, y)
